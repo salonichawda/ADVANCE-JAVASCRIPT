@@ -1,0 +1,165 @@
+{
+    "course": {
+        "id": "216",
+        "name": "JS switch-else",
+        "logo": "http://navgurukul.org/img/sqlogo.jpg",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "We will discuss about switch case.",
+        "type": "js",
+        "course_type": null,
+        "lang_available": [
+            "en"
+        ],
+        "exercises": [
+            {
+                "id": "6503",
+                "parent_exercise_id": null,
+                "course_id": "216",
+                "name": "switch statements",
+                "slug": "js-switch_case__Introduction_md",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-switch_case/Introduction.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Example:\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "var day = \"Wednesday\"\n \nswitch (day) {\n  case \"Sunday\":\n      console.log(\"Meeting with curriculum team\")\n       break;\n \n  case \"Wednesday\":\n       console.log(\"Meeting with academics team\")\n        break;\n \n  case \"Tuesday\":\n       console.log(\"Normal working day\")\n        break;\n }\n ",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Explanation\n\n \nThe above example shows here the meetings scheduled of a person according to the days. Here in this situation the user wants to find that on \"Wednesday\" with whom he has a meeting? By using this switch `statement` program it will show \"Meeting with academics team\".  As on \"Wednesday\"  it is already mentioned in the schedule which we are depicting with the help of the switch `statement` mentioned above.\n\n\n\nHere the program will check  var day = \"Wednesday\" this `statement` very first;\n\n\n\nThen it move to the switch `statement` where it is mentioned switch (day);\n\n\n\nThen it moves to the case 1 that is \"Sunday\" is not equal to day(Wednesday) and that means the day mentioned is not similar to the case so it will directly jump to the case 2.\n\n\n\nHere in case 2 it will again check whether \"Wednesday\" is similar to the day mentioned above. This time it will find the similar `input` as mentioned in case 2. So it will console the `statement` mentioned inside the case that is \"Meeting with academics team\" ;\n\n\n\nThen it will check the next `statement` which is break; and as you all know break `statements` help in breaking the flow of a program it will come out of the flow and the program ends.\n\n\n \n\nNote :\n\n Here after the each case break; `statement` is there because we don’t want it to check the whole program, once it will get the right case it will break the flow and come out of the program and this is the reason that it works faster than the if-else `statements` which you have read in the basics doc already.\n\n\n\nDefinition\n\nSwitch `statement` `executes` a block of `code` which depends on different cases, if there is a match with any of the cases, that particular block of `code` will `execute` and the program will stop.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "6520",
+                "parent_exercise_id": null,
+                "course_id": "216",
+                "name": "switch statements",
+                "slug": "js-switch_case__syntax_md",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-switch_case/syntax.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "`Syntax`\n\nHow default case works\n\nExample:\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\nvar num = \"w\"\nswitch (true){\ncase num > 0:\nconsole.log(\"It is a positive number\")\n      break;\ncase num < 0:\nconsole.log(\"It is a negative number\")\n      break;\ncase num == 0:\nconsole.log(\"It is a zero\")\n      break;\ndefault:\nconsole.log(\"Invalid input\")\n    }",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Explanation\n\nHere the program will take user `input` ,this `statement` is very first;\n\n\n\nThen it move to the switch `statement` where it is mentioned switch (`true`);\n\n\n\nThen it  moves to the case 1 that is num is greater than zero and if that mentioned case is not similar to the case so it will directly jump to the case 2.\n\n\n \nHere in case 2 it will again check whether num is less than zero, is not similar to num above so it will directly jump to the case 3.\n\n\n\nHere is case 3 it will again check whether num is equal to zero is not similar to num which is user `input`, so it will directly jump to the default case value and console \"invalid `input`\".\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "6519",
+                "parent_exercise_id": "6519",
+                "course_id": "216",
+                "name": "Question 1",
+                "slug": "js-switch_case__Questions/Question1_md",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-switch_case/Questions/Question1.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 1\n\nWrite a `code` for calculator?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "6521",
+                "parent_exercise_id": "6519",
+                "course_id": "216",
+                "name": "name:Question 2",
+                "slug": "js-switch_case__Questions/Question2_md",
+                "sequence_num": 201,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-switch_case/Questions/Question2.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 2\n\nWrite a `code` for navgurukul’s food menu?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "6522",
+                "parent_exercise_id": "6519",
+                "course_id": "216",
+                "name": "name:Question 3",
+                "slug": "js-switch_case__Questions/Question3_md",
+                "sequence_num": 202,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-switch_case/Questions/Question3.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 3\n\nwrite a `code` for these cases\n\n    If the month is 1, 3,5, 7, 8, 10, or 12, the number of days in a month is 31.\n    If the month is 4, 6, 9, or 11, the number of days in that month is 30.\n    If the month is 2, and the year is not the leap year, the number of days is 28. If the year is the leap year, the number of days is 29.\n    If the input month is not in the range, the script jumps the default branch ."
+                    }
+                ]
+            },
+            {
+                "id": "6523",
+                "parent_exercise_id": "6519",
+                "course_id": "216",
+                "name": "name:Question 4",
+                "slug": "js-switch_case__Questions/Question4_md",
+                "sequence_num": 203,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-switch_case/Questions/Question4.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 4\n\nAccept any city from the user and display the monument of that city.\n\nCity                         Monument\n\n            Delhi                        Red Fort\n            Agra                         Taj Mahal\n            Jaipur                       Jal Mahal"
+                    }
+                ]
+            },
+            {
+                "id": "6524",
+                "parent_exercise_id": "6519",
+                "course_id": "216",
+                "name": "name : Question 5",
+                "slug": "js-switch_case__Questions/Question5_md",
+                "sequence_num": 204,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-switch_case/Questions/Question5.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 5\n\nWrite a `Python` program to accept a `file`name from the user and print the extension of that. \n\n\n\nSample `file`name : abc.java\n\n`Output` : java\n\n"
+                    }
+                ]
+            }
+        ]
+    }
+}
